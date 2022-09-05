@@ -65,7 +65,7 @@
           По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст.
         </p>
       </div>
-      <div class="intro__card">
+      <div class="intro__card lg">
         <div class="intro__card-inner">
           <div class="intro__card-images">
             <div class="intro__card-image">
@@ -134,6 +134,22 @@
             <button class="btn-reset intro__card-btn" data-graph-path="modal-delivery_1">Подробнее</button>
           </div>
         </div><!-- /card -->
+        <div class="intro__card sm">
+          <div class="intro__card-inner">
+            <div class="intro__card-images">
+              <div class="intro__card-image">
+                <img src="img/intro/intro-1.png" alt="image">
+              </div>
+              <div class="intro__card-image">
+                <img src="img/intro/intro-1_1.png" alt="image">
+              </div>
+            </div><!-- /intro__card-images -->
+            <div class="intro__card-title">
+              Грузоперевозки<br> из Китая
+            </div>
+            <button class="btn-reset intro__card-btn" data-graph-path="modal-china">Подробнее</button>
+          </div>
+        </div><!-- /card_sm -->
       </div>
     </div>
   </div><!-- /container -->
@@ -412,7 +428,7 @@
                 <div class="delivery-table__col">8м3</div>
                 <div class="delivery-table__col">Откр, Закр, Рефр</div>
                 <div class="delivery-table__col">4+1</div>
-                <div class="delivery-table__col price">1 500 руб.</div>
+                <div class="delivery-table__col price">3 500 руб.</div>
               </div><!-- /row -->
               <div class="delivery-table__row">
                 <div class="delivery-table__col">Портер или аналог до 1 тонны</div>
@@ -456,6 +472,51 @@
               </div><!-- /row -->
             </div><!-- table-content -->
           </div>
+          <p class="select-text">Выберите один из вариантов</p>
+          <div class="delivery-select">
+            <select name="delivery_select" id="delivery_select" class="delivery-select__select">
+              <option data-name="Портер или аналог до 1 тонны" data-weight="1т" data-size="8м3" data-type="Откр, Закр, Рефр" data-time="4+1" data-price="1 500 руб." value="Портер или аналог до 1 тонны" selected>Портер или аналог до 1 тонны</option>
+              <option data-name="Портер или аналог до 2 тонн" data-weight="2т" data-size="5м3" data-type="Откр, Закр" data-time="5+1" data-price="3 500 руб." value="Портер или аналог до 2 тонн" selected>Портер или аналог до 2 тонн</option>
+            </select>
+            <div class="rent-select__content select-content">
+              <div class="select-content__block">
+                <div class="select-content__title">Наименование</div>
+                <div class="select-content__text">
+                  Портер или аналог до 1 тонны
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Тоннаж</div>
+                <div class="select-content__weight">
+                  1т
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Объем</div>
+                <div class="select-content__size">
+                  8м3
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Тип кузова</div>
+                <div class="select-content__type">
+                  Откр, Закр, Рефр
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Время работы</div>
+                <div class="select-content__time">
+                  4+1
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Стоимость</div>
+                <div class="select-content__price">
+                  15 000 руб.
+                </div>
+              </div>
+            </div>
+          </div>   
         </div>
         <div class="contacts-form__bottom">
           <button class="btn-reset contacts-form__btn btn" data-graph-path="modal-order">Оставить заявку</button>
@@ -522,6 +583,52 @@
               </div><!-- /row -->        
             </div><!-- table-content -->
           </div>
+          <div class="delivery-select1">
+            <p class="select-text">Выберите один из вариантов</p>
+            <select name="delivery_select1" id="delivery_select1" class="delivery-select__select1">
+              <option data-name="Портер или аналог до 1 тонны" data-weight="1т" data-size="8м3" data-type="Откр, Закр, Рефр" data-time="4+1" data-price="1 500 руб." value="Портер или аналог до 1 тонны" selected>Портер или аналог до 1 тонны</option>
+              <option data-name="Портер или аналог до 2 тонн" data-weight="2т" data-size="5м3" data-type="Откр, Закр" data-time="5+1" data-price="3 500 руб." value="Портер или аналог до 2 тонн" selected>Портер или аналог до 2 тонн</option>
+              <option data-name="Портер или аналог до 3 тонн" data-weight="3т" data-size="11м3" data-type="Откр, Закр" data-time="6+1" data-price="15 500 руб." value="Портер или аналог до 3 тонн" selected>Портер или аналог до 3 тонн</option>
+            </select>
+            <div class="rent-select__content select-content">
+              <div class="select-content__block">
+                <div class="select-content__title">Наименование</div>
+                <div class="select-content__text">
+                  Портер или аналог до 1 тонны
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Тоннаж</div>
+                <div class="select-content__weight">
+                  1т
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Объем</div>
+                <div class="select-content__size">
+                  8м3
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Тип кузова</div>
+                <div class="select-content__type">
+                  Откр, Закр, Рефр
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Время работы</div>
+                <div class="select-content__time">
+                  4+1
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Стоимость</div>
+                <div class="select-content__price">
+                  15 000 руб.
+                </div>
+              </div>
+            </div>
+          </div>   
         </div>
         <div class="contacts-form__bottom">
           <button class="btn-reset contacts-form__btn btn" data-graph-path="modal-order">Оставить заявку</button>
@@ -549,23 +656,50 @@
                 <div class="rent-table__col price">15 000 руб.</div>              
               </div><!-- /row -->            
               <div class="rent-table__row">
-                <div class="rent-table__col">Портер или аналог до 1 тонны</div>
-                <div class="rent-table__col">4+1</div>
-                <div class="rent-table__col price">15 000 руб.</div>              
+                <div class="rent-table__col">Портер или аналог до 2 тонны</div>
+                <div class="rent-table__col">5+1</div>
+                <div class="rent-table__col price">12 000 руб.</div>              
               </div><!-- /row -->       
               <div class="rent-table__row">
-                <div class="rent-table__col">Портер или аналог до 1 тонны</div>
-                <div class="rent-table__col">4+1</div>
+                <div class="rent-table__col">Портер или аналог до 3 тонн</div>
+                <div class="rent-table__col">6+1</div>
                 <div class="rent-table__col price">1 000 руб.</div>              
               </div><!-- /row -->       
             </div><!-- table-content -->
-          </div>
-
+          </div><!-- /rent-table -->
+          <p class="select-text_rent">Выберите один из вариантов</p>
+          <div class="rent-select">
+            <select name="rent_select" id="rent_select" class="rent-select__select">
+              <option data-name="Портер или аналог до 1 тонны" data-time="4+1" data-price="15 000 руб." value="Портер или аналог до 1 тонны" selected>Портер или аналог до 1 тонны</option>
+              <option data-name="Портер или аналог до 2 тонны" data-time="5+1" data-price="12 000 руб." value="Портер или аналог до 2 тонны" selected>Портер или аналог до 2 тонны</option>
+              <option data-name="Портер или аналог до 3 тонн" data-time="6+1" data-price="1 000 руб." value="Портер или аналог до 3 тонн" selected>Портер или аналог до 3 тонн</option>
+            </select>
+            <div class="rent-select__content select-content">
+              <div class="select-content__block">
+                <div class="select-content__title">Наименование</div>
+                <div class="select-content__text">
+                  Портер или аналог до 1 тонны
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Время работы</div>
+                <div class="select-content__time">
+                  4+1
+                </div>
+              </div>
+              <div class="select-content__block">
+                <div class="select-content__title">Стоимость</div>
+                <div class="select-content__price">
+                  15 000 руб.
+                </div>
+              </div>
+            </div>
+          </div>       
         </div>
         <div class="contacts-form__bottom">
           <button class="btn-reset contacts-form__btn btn" data-graph-path="modal-order">Оставить заявку</button>
         </div>
-      </div><!-- /contacts-form-->
+      </div><!-- /contacts-form-->     
     </div>
   </div>
 
